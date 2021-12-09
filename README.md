@@ -4,7 +4,7 @@
 ## Multi-Media Group Chat
 ======================================
 
-Commands required to run the program are :
+Commands to run the program :
 
 * ```$ python3 server.py``` 
 * ```$ python3 client.py```
@@ -30,14 +30,14 @@ On choosing the suitable HOST and PORT, the client is connected to the server an
 #### OS Commands
 - ``` !cmd "Linux Commands"``` command is used to execute the OS commands. 
 - It supports all the basic linux commands like *ls, date, time.*
-- The commands *sudo, rm, rf* are not supported and are considered as error commands.
-- For example, *!cmd ls* command outputs the list of all the files in the present directory.
+- The commands ```sudo, rm, rf``` are not supported and are considered as error commands.
+- For example, ```!cmd ls``` command outputs the list of all the files in the present directory.
 
 
 ### Flie Transfer
 - ```!send "filename"``` command is used to send a file from the client to the server.
 - ```!req "filename"``` command is used to request a file from the server to the client.
-- It supports all file extensions like *.txt, .pdf, .mp3, .mp4, .jpeg, .png, .py....*
+- It supports all file extensions like ```.txt, .pdf, .mp3, .mp4, .jpeg, .png, .py....```
 
 ### Bank Authentication
 - ```!get "QR Code"``` pops out the unique generated QR Code for a given URL.
